@@ -25,28 +25,3 @@ User.findById(userId).then((result) => {
 }).catch((error) => {
 	console.log(error)
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-// if (!ObjectID.isValid(id)) {
-// 	console.log("id is not valid")
-// }
-
-// Todo.findById(id).then((result) => {
-// 	if (!result) {
-// 		console.log("not found")
-// 	}
-// 		console.log("Found: ", result)
-// }).catch((error) => {
-// 	console.log(error);
-// })
